@@ -15,7 +15,7 @@ To write a PYTHON program for socket for HTTP for web page upload and download
 <BR>
 6.Stop the program
 <BR>
-## Program
+## Program 
 ```
 import socket
 
@@ -44,22 +44,19 @@ def download_file(host, port, filename):
         file.write(file_content.encode())
 
 if __name__ == "__main__":
-    host = 'example.com'
+    host = '93.184.216.34'
     port = 80
 
     # Upload file
-    upload_response = upload_file(host, port, 'example.txt.txt')
+    upload_response = upload_file(host, port, 'example.txt')
     print("Upload response:", upload_response)
 
     # Download file
-    download_file(host, port, 'example.txt.txt')
+    download_file(host, port, 'example.txt')
     print("File downloaded successfully.")
-
-
 ```
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/fe2e8799-9652-420f-95bd-12f2f4df3876)
-![image](https://github.com/user-attachments/assets/a1c03c72-7823-43cb-9f6f-bc02e461c9cf)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0d2584b0-1f9e-4e8d-8e06-bfd2db9bc169" />
 
 ## Result
 Thus the socket for HTTP for web page upload and download created and Executed
